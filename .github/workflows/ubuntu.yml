@@ -1,0 +1,41 @@
+name: Ubuntu
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  get-image:
+    name: Get Swift image
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Run pulled docker image
+        uses: docker://swift:latest
+
+  install-dependencies:
+    name: Install Dependencies
+    runs-on: ubuntu-latest
+    needs: get-image
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Update package manager
+        run: sudo apt-get update
+      - name: Install dependencies
+        run: sudo apt-get install -yq libssl-dev pkg-config libcurl4
+
+  build-test:
+    name: Build and Test
+    runs-on: ubuntu-latest
+    needs: install-dependencies
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Build project
+        run: swift build
+      - name: Run tests
+        run: swift test

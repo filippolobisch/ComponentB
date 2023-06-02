@@ -1,0 +1,222 @@
+Machine model: MacBookPro17,1
+OS version: 22D68
+Boot arguments: 
+Boot time: Sun Mar 12 12:43:17 2023
+
+
+
+*** Sampled system activity (Thu Mar 23 16:30:12 2023 +0200) (1010.31ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+powermetrics                       28786  19.55     7.11   0.00    0.00               0.98    0.00              
+DEAD_TASKS                         -1     89.68     63.78  0.00    0.00               0.00    0.00              
+mdworker_shared                    28788  252.83    74.79  0.00    0.00               0.00    0.00              
+launchd                            1      11.67     28.83  0.00    0.00               0.98    0.00              
+mds_stores                         750    10.41     89.61  0.00    0.00               0.00    0.00              
+kernel_task                        0      20.65     0.00   12.77   30.46              136.58  42.25             
+cfprefsd                           541    5.72      73.55  0.00    0.00               0.00    0.00              
+mds                                350    4.91      54.09  0.00    0.00               0.98    0.00              
+WindowServer                       392    7.32      43.13  1.97    0.00               5.90    0.00              
+opendirectoryd                     361    5.64      47.88  0.00    0.00               2.95    0.00              
+cfprefsd                           389    2.73      70.67  0.00    0.00               0.00    0.00              
+logd                               323    2.80      35.04  0.00    0.00               0.00    0.00              
+notifyd                            384    2.05      55.29  0.00    0.00               0.00    0.00              
+bluetoothd                         383    2.86      76.61  0.00    0.00               0.00    0.00              
+Finder                             580    2.51      75.83  0.00    0.00               1.97    0.00              
+corebrightnessd                    386    2.45      63.76  0.00    0.00               0.00    0.00              
+diskarbitrationd                   353    0.37      62.07  0.00    0.00               0.00    0.00              
+locationd                          369    1.30      73.60  0.00    0.00               0.00    0.00              
+sharingd                           649    0.90      76.09  0.00    0.00               1.97    0.00              
+com.apple.AmbientDisplayAgent      36831  1.32      56.28  0.00    0.00               0.00    0.00              
+TouchBarServer                     473    1.30      50.20  0.00    0.00               1.97    0.00              
+assistantd                         603    1.09      45.76  0.00    0.00               1.97    0.00              
+audioclocksyncd                    539    1.18      49.32  0.00    0.00               0.00    0.00              
+searchpartyd                       503    1.07      73.91  0.00    0.00               0.00    0.00              
+fseventsd                          328    0.95      9.80   0.00    0.00               0.98    0.00              
+nearbyd                            814    0.64      66.17  0.00    0.00               0.98    0.00              
+lsd                                578    0.95      55.59  0.00    0.00               0.00    0.00              
+DropboxFileProvider                80624  0.90      82.67  0.00    0.00               1.97    0.00              
+AXVisualSupportAgent               583    0.70      64.38  0.00    0.00               10.81   0.00              
+coreservicesd                      400    0.70      45.33  0.00    0.00               0.00    0.00              
+Terminal                           28679  0.46      48.81  0.00    0.00               0.98    0.00              
+oahd                               498    0.50      27.27  0.00    0.00               0.00    0.00              
+Spotlight                          642    0.24      50.47  0.00    0.00               0.98    0.00              
+distnoted                          540    0.50      38.81  0.00    0.00               0.00    0.00              
+fileproviderd                      617    0.55      68.20  0.00    0.00               1.97    0.00              
+PerfPowerServices                  16368  0.47      73.44  0.00    0.00               0.00    0.00              
+relatived                          71857  0.34      50.38  0.00    0.00               0.00    0.00              
+storagekitd                        91017  0.27      40.58  0.00    0.00               0.98    0.00              
+amsengagementd                     34440  0.33      51.05  0.00    0.00               0.98    0.00              
+coreaudiod                         425    0.32      66.18  0.00    0.00               0.00    0.00              
+mobiletimerd                       36394  0.21      26.83  0.00    0.00               0.98    0.00              
+SiriNCService                      97751  0.14      84.63  0.00    0.00               0.98    0.00              
+heard                              83673  0.19      62.04  0.00    0.00               0.98    0.00              
+avconferenced                      756    0.18      17.20  0.00    0.00               0.98    0.00              
+thermalmonitord                    360    0.17      58.80  0.00    0.00               0.98    0.00              
+mDNSResponder                      472    0.12      30.42  0.98    0.00               2.95    0.00              
+ContinuityCaptureAgent             618    0.10      24.66  0.00    0.00               1.97    0.00              
+pkd                                33793  0.14      57.68  0.00    0.00               0.98    0.00              
+com.apple.quicklook.ThumbnailsAg   34413  0.15      63.54  0.00    0.00               0.98    0.00              
+dasd                               372    0.10      31.59  0.00    0.00               0.98    0.00              
+trustd                             17504  0.10      55.05  0.00    0.00               0.98    0.00              
+symptomsd                          480    0.08      33.11  0.00    0.00               0.98    0.00              
+nsurlsessiond                      591    0.07      39.05  0.00    0.00               0.98    0.00              
+remindd                            30372  0.08      32.38  0.00    0.00               0.98    0.00              
+Amphetamine                        667    0.11      77.94  0.00    0.00               0.98    0.00              
+cloudd                             33818  0.07      37.83  0.00    0.00               0.98    0.00              
+ControlCenter                      577    0.08      27.81  0.00    0.00               0.98    0.00              
+AirPlayXPCHelper                   387    0.07      31.69  0.00    0.00               0.98    0.00              
+runningboardd                      396    0.08      37.95  0.00    0.00               0.98    0.00              
+identityservicesd                  640    0.06      41.45  0.00    0.00               0.98    0.00              
+UIKitSystem                        45217  0.07      36.76  0.00    0.00               0.98    0.00              
+callservicesd                      73446  0.06      43.67  0.00    0.00               0.98    0.00              
+apsd                               362    0.06      43.47  0.00    0.00               0.98    0.00              
+syspolicyd                         391    0.05      47.18  0.00    0.00               0.98    0.00              
+configd                            334    0.06      21.72  0.00    0.00               0.98    0.00              
+studentd                           97646  0.04      40.86  0.00    0.00               0.98    0.00              
+remoted                            341    0.04      38.70  0.00    0.00               0.98    0.00              
+mDNSResponderHelper                479    0.04      42.74  0.00    0.00               0.98    0.00              
+com.apple.audio.Core-Audio-Drive   497    0.04      48.46  0.00    0.00               0.98    0.00              
+ALL_TASKS                          -2     310.98    57.59  15.84   30.68              209.84  42.56             
+
+
+**** Battery and backlight usage ****
+
+
+
+**** Network activity ****
+
+out: 0.00 packets/s, 0.00 bytes/s
+in:  0.00 packets/s, 0.00 bytes/s
+
+
+**** Disk activity ****
+
+read: 5.94 ops/s 52.70 KBytes/s
+write: 0.00 ops/s 0.00 KBytes/s
+
+****  Interrupt distribution ****
+
+CPU 0:
+	Total IRQ: 388.99 interrupts/sec
+	|-> IPI: 279.12 interrupts/sec
+	|-> TIMER: 95.02 interrupts/sec
+CPU 1:
+	Total IRQ: 383.05 interrupts/sec
+	|-> IPI: 264.27 interrupts/sec
+	|-> TIMER: 91.06 interrupts/sec
+CPU 2:
+	Total IRQ: 249.43 interrupts/sec
+	|-> IPI: 216.76 interrupts/sec
+	|-> TIMER: 29.69 interrupts/sec
+CPU 3:
+	Total IRQ: 180.14 interrupts/sec
+	|-> IPI: 144.51 interrupts/sec
+	|-> TIMER: 34.64 interrupts/sec
+CPU 4:
+	Total IRQ: 6.93 interrupts/sec
+	|-> IPI: 3.96 interrupts/sec
+	|-> TIMER: 2.97 interrupts/sec
+CPU 5:
+	Total IRQ: 1.98 interrupts/sec
+	|-> IPI: 1.98 interrupts/sec
+
+
+
+**** Processor usage ****
+
+E-Cluster HW active frequency: 1102 MHz
+E-Cluster HW active residency:  24.93% (600 MHz:   0% 972 MHz:  86% 1332 MHz: 1.2% 1704 MHz: 2.9% 2064 MHz: 9.5%)
+E-Cluster idle residency:  75.07%
+E-Cluster instructions retired: 5.58691e+08
+E-Cluster instructions per clock: 1.32725
+CPU 0 frequency: 1198 MHz
+CPU 0 idle residency:  94.15%
+CPU 0 active residency:   5.85% (600 MHz:   0% 972 MHz: 4.4% 1332 MHz: .10% 1704 MHz: .46% 2064 MHz: .87%)
+CPU 1 frequency: 1484 MHz
+CPU 1 idle residency:  82.19%
+CPU 1 active residency:  17.81% (600 MHz:   0% 972 MHz: 8.6% 1332 MHz: .64% 1704 MHz: 1.4% 2064 MHz: 7.2%)
+CPU 2 frequency: 1374 MHz
+CPU 2 idle residency:  96.23%
+CPU 2 active residency:   3.77% (600 MHz:   0% 972 MHz: 2.2% 1332 MHz: .07% 1704 MHz: .26% 2064 MHz: 1.2%)
+CPU 3 frequency: 1208 MHz
+CPU 3 idle residency:  97.67%
+CPU 3 active residency:   2.33% (600 MHz:   0% 972 MHz: 1.4% 1332 MHz: .61% 1704 MHz: .06% 2064 MHz: .26%)
+
+P-Cluster HW active frequency: 635 MHz
+P-Cluster HW active residency:   1.06% (600 MHz:  98% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz: .57% 1728 MHz: .35% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz: .39% 2988 MHz: .20% 3096 MHz:   0% 3144 MHz: .19% 3204 MHz: .31%)
+P-Cluster idle residency:  98.94%
+P-Cluster instructions retired: 1.11997e+08
+P-Cluster instructions per clock: 2.92491
+CPU 4 frequency: 1771 MHz
+CPU 4 idle residency:  99.01%
+CPU 4 active residency:   0.99% (600 MHz: .01% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz: .57% 1728 MHz: .28% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz: .02% 3204 MHz: .10%)
+CPU 5 frequency: 3197 MHz
+CPU 5 idle residency:  99.91%
+CPU 5 active residency:   0.09% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz: .00% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz: .09%)
+CPU 6 frequency: 0 MHz
+CPU 6 idle residency: 100.00%
+CPU 6 active residency:   0.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+CPU 7 frequency: 0 MHz
+CPU 7 idle residency: 100.00%
+CPU 7 active residency:   0.00% (600 MHz:   0% 828 MHz:   0% 1056 MHz:   0% 1284 MHz:   0% 1500 MHz:   0% 1728 MHz:   0% 1956 MHz:   0% 2184 MHz:   0% 2388 MHz:   0% 2592 MHz:   0% 2772 MHz:   0% 2988 MHz:   0% 3096 MHz:   0% 3144 MHz:   0% 3204 MHz:   0%)
+
+System instructions retired: 6.70688e+08
+System instructions per clock: 1.46046
+CPU Power: 56 mW
+GPU Power: 0 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 56 mW
+
+**** GPU usage ****
+
+GPU active frequency: 0 MHz
+GPU active residency:   0.00% (396 MHz:   0% 528 MHz:   0% 720 MHz:   0% 924 MHz:   0% 1128 MHz:   0% 1278 MHz:   0%)
+GPU requested frequency: (396 MHz:   0% 528 MHz:   0% 720 MHz:   0% 924 MHz:   0% 1128 MHz:   0% 1278 MHz:   0%)
+GPU idle residency: 100.00%
+GPU Power: 0 mW
+
+
+
+*** Sampled system activity (Thu Mar 23 16:30:14 2023 +0200) (1025.55ms elapsed) ***
+
+*** Running tasks ***
+
+Name                               ID     CPU ms/s  User%  Deadlines (<2 ms, 2-5 ms)  Wakeups (Intr, Pkg idle)
+DEAD_TASKS                         -1     80.43     67.97  0.00    0.00               0.00    0.00              
+powermetrics                       28786  21.88     10.47  0.00    0.00               0.98    0.00              
+kernel_task                        0      17.91     0.00   14.66   13.68              138.78  49.84             
+launchd                            1      4.97      21.13  0.00    0.00               0.98    0.00              
+WindowServer                       392    5.34      42.21  0.00    0.00               0.98    0.00              
+bluetoothd                         383    4.14      75.27  0.00    0.00               0.98    0.00              
+distnoted                          540    3.14      96.80  0.00    0.00               0.00    0.00              
+logd                               323    1.31      27.18  0.00    0.00               0.00    0.00              
+distnoted                          374    1.85      70.75  0.00    0.00               0.00    0.00              
+airportd                           423    2.52      63.34  0.00    0.00               0.00    0.00              
+corebrightnessd                    386    1.62      59.52  0.00    0.00               0.00    0.00              
+notifyd                            384    0.51      59.44  0.00    0.00               0.00    0.00              
+DropboxFileProvider                80624  1.30      83.42  0.98    0.00               2.93    0.00              
+com.apple.AmbientDisplayAgent      36831  1.13      54.45  0.00    0.00               0.00    0.00              
+opendirectoryd                     361    1.64      50.78  0.00    0.00               0.98    0.00              
+nearbyd                            814    0.94      75.13  0.00    0.00               0.00    0.00              
+sharingd                           649    1.09      70.41  0.00    0.00               0.00    0.00              
+audioclocksyncd                    539    1.11      50.10  0.00    0.00               0.00    0.00              
+TouchBarServer                     473    0.98      45.39  0.00    0.00               1.95    0.00              
+PerfPowerServices                  16368  0.95      70.67  0.00    0.00               0.98    0.00              
+trustd                             17504  0.89      67.87  0.00    0.00               3.91    0.00              
+ControlCenter                      577    0.92      69.64  0.00    0.00               0.98    0.00              
+fileproviderd                      617    0.48      64.34  0.00    0.00               1.95    0.00              
+AXVisualSupportAgent               583    0.48      62.07  0.00    0.00               9.77    0.00              
+oahd                               498    0.49      27.88  0.00    0.00               0.00    0.00              
+storagekitd                        91017  0.40      40.81  0.00    0.00               1.95    0.00              
+relatived                          71857  0.38      48.28  0.00    0.00               0.98    0.00              
+WirelessRadioManagerd              636    0.29      58.27  0.00    0.00               0.00    0.00              
+mds                                350    0.33      55.04  0.00    0.00               0.98    0.00              
+coreaudiod                         425    0.29      62.30  0.00    0.00               0.00    0.00              
+nsurlsessiond                      591    0.11      29.38  0.00    0.00               0.98    0.00              
+mds_stores                         750    0.22      50.13  0.00    0.00               0.00    0.00              
+securityd                          366    0.26      50.70  0.00    0.00               0.00    0.00              
+Terminal                           28679  0.27      84.98  0.00    0.00               1.95    0.00              
+                            34802  0.12      32.31  0.00    0.00               0.98    0.00              
