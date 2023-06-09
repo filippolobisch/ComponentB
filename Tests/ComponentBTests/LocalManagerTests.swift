@@ -22,14 +22,14 @@ final class LocalManagerTests: XCTestCase {
 
     /// Test the ending of the project directory url ends in 'thesis-server'.
     func testBundleURLAccuracy() async throws {
-        let expectation = "thesis-server_App"
+        let expectation = "ComponentB_ComponentB"
         let bundle = await localManager.bundle.bundleURL
         XCTAssertEqual(bundle.deletingPathExtension().lastPathComponent, expectation)
     }
 
     /// Test the retrieval of all the file names in the data files directory.
     func testListFiles() async throws {
-        let expectation = 2
+        let expectation = 11
         let files = try await localManager.listFilesInResourcesDirectory()
         XCTAssertEqual(files.count, expectation, "The file names retrieved from the local manager expected to be of size \(expectation), however, the result was \(files.count) instead of \(expectation).")
     }

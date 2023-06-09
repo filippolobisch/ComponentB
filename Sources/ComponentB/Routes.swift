@@ -35,7 +35,7 @@ struct Routes {
     }
     
     func stress(request: Request) async throws -> Bool {
-        try await mainController.constantTask()
+        async let _ = mainController.constantTask()
         return true
     }
     
