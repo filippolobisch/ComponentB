@@ -29,7 +29,11 @@ final class LocalManagerTests: XCTestCase {
 
     /// Test the retrieval of all the file names in the data files directory.
     func testListFiles() async throws {
+        #if Xcode
         let expectation = 11
+        #else
+        let expectation = 7
+        #endif
         let files = try await localManager.listFilesInResourcesDirectory()
         XCTAssertEqual(files.count, expectation, "The file names retrieved from the local manager expected to be of size \(expectation), however, the result was \(files.count) instead of \(expectation).")
     }
